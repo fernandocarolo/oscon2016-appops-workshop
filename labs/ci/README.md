@@ -62,6 +62,7 @@ Finallly, we will configure the post build actions.
 * Click `Add Tag`
 * Set `Tag to Push` to `build-$BUILD_TAG`
 * Set `Tag message` to `$BUILD_URL`
+* Select `Create new tag`
 * Set `Tag remote name` to `origin`
 
 ### Create a post build notification script
@@ -74,4 +75,5 @@ Finallly, we will configure the post build actions.
 
 ### Save our work
 
-Click `Save`
+![finish](finish.png)
+
