@@ -36,7 +36,7 @@ When your environment was provisioned, a SSH key was generated for you.
 
 ![git3](git3.png)
 
-* In the `Credentials` select box, choose `workshop`.
+In the `Credentials` select box, choose `workshop`.
 
 ![build1](build1.png)
 
@@ -74,4 +74,4 @@ Finallly, we will configure the post build actions.
 
 ### Save our work
 
-*
+Click `Save`
