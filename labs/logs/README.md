@@ -8,6 +8,8 @@
 
 * Select `filebeat-*` as default index
 
+![kibana1](kibana1.png)
+
 ## View logs
 
 * Click `Disover`
