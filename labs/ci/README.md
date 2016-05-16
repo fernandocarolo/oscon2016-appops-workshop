@@ -45,7 +45,7 @@ In the `Credentials` select box, choose `workshop`.
 Next, we will configure the build.
 
 * Under Build, choose `Add build step / Execute shell`
-* In `Command`, enter `scripts/ci.sh`
+* In `Command`, enter `scripts/ci`
 * Under Build, choose `Add build step / Docker Build and Publish
 * Set `Repository Name` to `workshop/omniscient`
 * Set `Docker registry URL` to `https://app.05f8df0.x.pifft.com:5000/v1` ensuring your are using the proper
