@@ -77,3 +77,19 @@ Finallly, we will configure the post build actions.
 
 ![finish](finish.png)
 
+## Build your App
+
+(it fails, but that's on purpose)
+
+### Fixing your app
+
+* SSH into shell
+* Make sure you are in the home directory `cd ~`.
+* Create development directory `mkdir development`
+* Change to development directory `cd development`
+* Clone omniscient `git clone git@app.<project id>.y.pifft.com:omniscient.git`
+* Check out work branch `git checkout add-delete`
+* Check out master branch `git checkout master`
+* Merge work branch `git merge add-delete`
+* Push work to remote Git repository `git push origin master`
+* Go to Jenkins, and create a new build
